@@ -19,7 +19,7 @@ class Circle {
 
     getArea(){
         console.log(`The radius is ${this.circleRadius}`);
-        return (Math.PI * this.circleRadius ** 2).toFoxed(2);
+        return (Math.PI * this.circleRadius ** 2).toFixed(2);
     }
     getCircumference () {
         // console.log(`The radius is ${this.circleRadius}`); // or
